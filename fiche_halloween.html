@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8"><title>Happy Halloween</title>
+<style>
+@page{size:A4;margin:0}
+*{box-sizing:border-box}
+body{margin:0;font-family:"Comic Sans MS","Comic Neue","DejaVu Sans",sans-serif;color:#2b1b3d}
+.page{width:210mm;height:297mm;position:relative;overflow:hidden;background:#fff8ec;padding:9mm}
+.frame{position:absolute;inset:5mm;border:2.5mm dashed #f77f00;border-radius:8mm}
+.web{position:absolute;top:5mm;left:5mm;width:42mm}
+.web2{position:absolute;top:5mm;right:5mm;width:42mm;transform:scaleX(-1)}
+header{text-align:center;margin-top:6mm;position:relative;height:36mm}
+h1{margin:0;font-size:15mm;line-height:1;color:#f77f00;text-shadow:1.2mm 1.2mm 0 #2b1b3d;letter-spacing:.5mm}
+h1 span{display:block;color:#7b2cbf;font-size:17mm}
+.date{position:absolute;right:20mm;top:0;width:24mm}
+.hat{position:absolute;left:19mm;top:-1mm;width:26mm}
+.box{position:relative;background:#fff;border:1.2mm solid #7b2cbf;border-radius:6mm;margin:5mm 12mm;padding:5mm 8mm}
+.en{font-size:7mm;font-weight:bold;margin:0}
+.fr{font-size:6mm;margin:1mm 0 4mm;color:#6a4c93}
+.en b{color:#f77f00}
+.gap{display:inline-block;width:32mm;border-bottom:.7mm dotted #2b1b3d}
+.ans .en{font-size:7mm}
+h2{margin:5mm 12mm 3mm;text-align:center;font-size:8mm;color:#fff;background:#f77f00;border-radius:5mm;padding:1.5mm;border:1mm solid #2b1b3d}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:4mm;margin:0 12mm}
+.card{background:#fff;border:1mm solid #f77f00;border-radius:5mm;text-align:center;padding:3mm 2mm}
+.card svg{width:30mm;height:26mm}
+.card .e{font-size:5.6mm;font-weight:bold;color:#7b2cbf;margin-top:1mm}
+.card .f{font-size:5mm;color:#2b1b3d}
+.card.w{grid-column:span 1}
+.deco{position:absolute}
+</style></head><body>
+<div class="page">
+<div class="frame"></div>
+
+<!-- toiles d'araignée -->
+<svg class="web" viewBox="0 0 100 100" fill="none" stroke="#8d8d99" stroke-width="1"><path d="M0 0H100M0 0L100 40M0 0L100 80M0 0L70 100M0 0L35 100M0 0V100"/><path d="M20 0Q18 18 0 20M45 0Q40 40 0 45M70 0Q60 60 0 70M95 0Q80 80 0 95"/><line x1="55" y1="55" x2="55" y2="75"/><circle cx="55" cy="80" r="5" fill="#2b1b3d"/><path d="M50 78l-7-4M50 82l-7 4M60 78l7-4M60 82l7 4" stroke="#2b1b3d"/></svg>
+<svg class="web2" viewBox="0 0 100 100" fill="none" stroke="#8d8d99" stroke-width="1"><path d="M0 0H100M0 0L100 40M0 0L100 80M0 0L70 100M0 0L35 100M0 0V100"/><path d="M20 0Q18 18 0 20M45 0Q40 40 0 45M70 0Q60 60 0 70M95 0Q80 80 0 95"/></svg>
+
+<header>
+  <!-- chapeau de sorcière -->
+  <svg class="hat" viewBox="0 0 100 100"><path d="M10 80Q50 65 90 80Q50 95 10 80Z" fill="#2b1b3d"/><path d="M28 76Q38 20 62 2Q60 30 72 77Q50 82 28 76Z" fill="#7b2cbf"/><path d="M29 70Q50 76 71 70L72 77Q50 83 28 77Z" fill="#f77f00"/></svg>
+  <h1>Happy<span>Halloween</span></h1>
+  <!-- calendrier 31 -->
+  <svg class="date" viewBox="0 0 100 100"><rect x="8" y="12" width="84" height="84" rx="10" fill="#fff" stroke="#2b1b3d" stroke-width="4"/><rect x="8" y="12" width="84" height="24" rx="10" fill="#f77f00" stroke="#2b1b3d" stroke-width="4"/><rect x="26" y="4" width="7" height="16" rx="3" fill="#2b1b3d"/><rect x="67" y="4" width="7" height="16" rx="3" fill="#2b1b3d"/><text x="50" y="80" text-anchor="middle" font-size="40" font-weight="bold" fill="#2b1b3d" font-family="DejaVu Sans,sans-serif">31</text><text x="50" y="31" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="DejaVu Sans,sans-serif">OCT</text></svg>
+</header>
+
+<div class="box">
+  <p class="en">When is Halloween<span style="color:#f77f00"> ?</span></p>
+  <p class="fr">Quand est Halloween ?</p>
+  <p class="en">Halloween is <b>on the 31st of October</b>.</p>
+  <p class="fr" style="margin-bottom:0">Halloween est le 31 octobre.</p>
+</div>
+
+<div class="box ans" style="padding-bottom:4mm">
+  <p class="fr" style="margin-top:0">Puis-je avoir un <span class="gap"></span> s'il te plaît ?</p>
+  <p class="en" style="margin-bottom:0">Can I have a <span class="gap"></span> please ?</p>
+</div>
+
+<h2>🎃 My Halloween vocabulary 🎃</h2>
+<div class="grid">
+
+<div class="card"><svg viewBox="0 0 120 100"><path d="M22 50L5 33V67Z" fill="#e63946" stroke="#2b1b3d" stroke-width="3" stroke-linejoin="round"/><path d="M98 50L115 33V67Z" fill="#e63946" stroke="#2b1b3d" stroke-width="3" stroke-linejoin="round"/><ellipse cx="60" cy="50" rx="40" ry="26" fill="#ff6b9d" stroke="#2b1b3d" stroke-width="3"/><path d="M38 34Q60 55 82 34M36 62Q60 42 84 66" stroke="#fff" stroke-width="5" fill="none" opacity=".7"/></svg><div class="e">a sweet</div><div class="f">un bonbon</div></div>
+
+<div class="card"><svg viewBox="0 0 120 100"><circle cx="60" cy="50" r="40" fill="#d9a05b" stroke="#2b1b3d" stroke-width="3"/><g fill="#5a3416"><ellipse cx="42" cy="38" rx="6" ry="5"/><ellipse cx="72" cy="34" rx="5" ry="6"/><ellipse cx="60" cy="58" rx="6" ry="5"/><ellipse cx="40" cy="66" rx="5" ry="4"/><ellipse cx="82" cy="60" rx="6" ry="5"/></g><path d="M24 36Q30 22 44 16" stroke="#f2c884" stroke-width="4" fill="none" stroke-linecap="round"/></svg><div class="e">a cookie</div><div class="f">un biscuit</div></div>
+
+<div class="card"><svg viewBox="0 0 120 100"><path d="M14 78L60 40L106 78Z" fill="none"/><path d="M12 54H108V86Q60 96 12 86Z" fill="#a0522d" stroke="#2b1b3d" stroke-width="3" stroke-linejoin="round"/><path d="M12 54Q12 36 60 34Q108 36 108 54Q96 66 86 54Q76 68 64 54Q52 68 40 54Q28 66 12 54Z" fill="#fff" stroke="#2b1b3d" stroke-width="3" stroke-linejoin="round"/><path d="M12 70H108" stroke="#f8c8dc" stroke-width="6"/><line x1="60" y1="34" x2="60" y2="16" stroke="#f1c40f" stroke-width="4"/><path d="M60 16Q56 8 60 4Q64 8 60 16Z" fill="#f77f00"/></svg><div class="e">a cake</div><div class="f">un gâteau</div></div>
+
+<div class="card"><svg viewBox="0 0 120 100"><path d="M60 30Q30 14 18 42Q10 76 38 90Q50 96 60 90Q70 96 82 90Q110 76 102 42Q90 14 60 30Z" fill="#e63946" stroke="#2b1b3d" stroke-width="3"/><path d="M60 30Q58 16 66 6" stroke="#5a3416" stroke-width="5" fill="none" stroke-linecap="round"/><path d="M66 14Q86 4 92 20Q76 26 66 14Z" fill="#43a047" stroke="#2b1b3d" stroke-width="3"/><path d="M30 46Q32 62 40 70" stroke="#fff" stroke-width="5" fill="none" stroke-linecap="round" opacity=".6"/></svg><div class="e">an apple</div><div class="f">une pomme</div></div>
+
+<div class="card"><svg viewBox="0 0 120 100"><path d="M34 14H86L78 90Q60 96 42 90Z" fill="#e6f6ff" stroke="#2b1b3d" stroke-width="3" stroke-linejoin="round"/><path d="M38 40H82L78 88Q60 94 42 88Z" fill="#6ec6ff"/><path d="M38 40Q50 34 60 40T82 40" stroke="#fff" stroke-width="3" fill="none"/><circle cx="52" cy="64" r="3" fill="#fff"/><circle cx="66" cy="72" r="4" fill="#fff"/><circle cx="60" cy="54" r="2" fill="#fff"/></svg><div class="e">a glass of water</div><div class="f">un verre d’eau</div></div>
+
+<!-- carte déco : fantôme -->
+<div class="card" style="border-style:dashed;display:flex;align-items:center;justify-content:center;flex-direction:column"><svg viewBox="0 0 120 100"><path d="M30 90V45Q30 12 60 12Q90 12 90 45V90L78 80L66 90L54 80L42 90Z" fill="#fff" stroke="#2b1b3d" stroke-width="3" stroke-linejoin="round"/><ellipse cx="50" cy="42" rx="5" ry="7" fill="#2b1b3d"/><ellipse cx="70" cy="42" rx="5" ry="7" fill="#2b1b3d"/><ellipse cx="60" cy="62" rx="6" ry="8" fill="#2b1b3d"/></svg><div class="e" style="color:#f77f00">Trick or treat !</div><div class="f">Des bonbons ou un sort !</div></div>
+</div>
+
+<!-- déco bas de page -->
+<svg class="deco" style="left:12mm;bottom:9mm;width:34mm" viewBox="0 0 120 100"><ellipse cx="60" cy="58" rx="52" ry="38" fill="#f77f00" stroke="#2b1b3d" stroke-width="3"/><path d="M40 22Q60 90 80 22" fill="none" stroke="#d96a00" stroke-width="3"/><rect x="54" y="10" width="12" height="18" rx="3" fill="#43a047" stroke="#2b1b3d" stroke-width="3"/><path d="M34 48L48 48L41 38Z M72 48L86 48L79 38Z" fill="#2b1b3d"/><path d="M38 70Q60 90 82 70L74 70L68 76L60 70L52 76L46 70Z" fill="#2b1b3d"/></svg>
+<svg class="deco" style="right:12mm;bottom:9mm;width:34mm" viewBox="0 0 120 100"><ellipse cx="60" cy="58" rx="52" ry="38" fill="#f77f00" stroke="#2b1b3d" stroke-width="3"/><path d="M40 22Q60 90 80 22" fill="none" stroke="#d96a00" stroke-width="3"/><rect x="54" y="10" width="12" height="18" rx="3" fill="#43a047" stroke="#2b1b3d" stroke-width="3"/><circle cx="42" cy="46" r="7" fill="#2b1b3d"/><circle cx="78" cy="46" r="7" fill="#2b1b3d"/><path d="M38 68Q60 90 82 68Q60 78 38 68Z" fill="#2b1b3d"/></svg>
+<!-- chauves-souris -->
+<svg class="deco" style="left:70mm;bottom:12mm;width:30mm" viewBox="0 0 120 60"><path d="M60 20Q50 8 36 14Q26 4 4 10Q18 18 16 34Q30 28 38 40Q46 32 54 42L60 30L66 42Q74 32 82 40Q90 28 104 34Q102 18 116 10Q94 4 84 14Q70 8 60 20Z" fill="#2b1b3d"/><circle cx="56" cy="22" r="2" fill="#f77f00"/><circle cx="64" cy="22" r="2" fill="#f77f00"/></svg>
+<svg class="deco" style="left:106mm;bottom:20mm;width:20mm" viewBox="0 0 120 60"><path d="M60 20Q50 8 36 14Q26 4 4 10Q18 18 16 34Q30 28 38 40Q46 32 54 42L60 30L66 42Q74 32 82 40Q90 28 104 34Q102 18 116 10Q94 4 84 14Q70 8 60 20Z" fill="#7b2cbf"/></svg>
+</div></body></html>
